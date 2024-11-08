@@ -1,0 +1,11 @@
+$TTL 86400
+@   IN  SOA ns1.moraisadvogados.com.br. admin.moraisadvogados.com.br. (
+            2023103002 ; Serial - atualizado para nova configuração
+            3600       ; Refresh
+            1800       ; Retry
+            1209600    ; Expire
+            86400 )    ; Minimum TTL
+;
+@   IN  NS  ns1.moraisadvogados.com.br.
+ns1 IN  A   172.30.0.14     ; IP do serviço BIND9
+www IN  A   172.30.0.12     ; IP do serviço NGINX

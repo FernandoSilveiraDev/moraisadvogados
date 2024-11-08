@@ -1,0 +1,4 @@
+zone "moraisadvogados.com.br" {
+    type master;
+    file "/var/cache/bind/db.moraisadvogados.com.br";
+};
