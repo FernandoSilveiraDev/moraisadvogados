@@ -17,7 +17,7 @@
       <div class="row d-flex  align-items-center justify-content-center">
         <div class="col-10">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a href="#">
+            <a href="#" aria-label="Página Inicial">
               <img src="assets/images/header/LogoGrupoMoraisHorizontal2.png" 
               class="ml-xl-5 ml-lg-5 ml-md-3 ml-sm-3 logo" 
               alt="Logotipo do Grupo Morais Advogados Associados e MS Recuperação de Créditos Ltda">
@@ -43,7 +43,7 @@
                 <a class="nav-link" href="#blog">Blog</a>
               </li>
 
-              <li class="nav-item text-center"><a href="#"> <img src="assets/images/header/BotaoQueroNegociar.png" alt=""></a></li>
+              <li class="nav-item text-center "> <a href="#" class=" nav-item btn my-btn-orange" style="font-size: 1.1rem; margin: 5px 20px ;"> Quero Negociar </a></li>
             </ul>
           </div>
         </nav>
@@ -58,8 +58,8 @@
   <div class="row p-xl-5 p-lg-5 p-md-4 p-sm-4 d-flex justify-content-center align-items-center">
 
     <!-- Coluna Soluções -->
-    <div class=" col-10 col-xl-7 col-lg-7 col-md-10 col-sm-10 mb-4">
-      <section id="Solucoes" class="g-2 p-xl-5 p-lg-5 p-md-4 p-sm-2 text-white">
+    <div class="col-10 col-xl-7 col-lg-7 col-md-10 col-sm-10 mb-4">
+      <section id="Solucoes" class="g-2 p-xl-5 p-lg-5 p-md-4 p-sm-2 text-white" aria-label="Soluções para seu negócio">
         <div class="col">
           <h2 class="col-10 col-xl-7 col-lg-7 col-md-10 col-sm-10 mb-4 text-white">
             Mais de 
@@ -78,49 +78,36 @@
             <li>Vendas</li>
             <li>Atendimento</li>
           </ul>
-          
         </div>
-
       </section>
     </div>
 
     <!-- Coluna Trabalhe Conosco -->
-    <div class="col-10 col-xl-3 col-lg-3  col-md-10 col-sm-10 mb-4">
-      <section id="TrabalheConosco" class="g-2 bg-white rounded p-5">
+    <div class="col-10 col-xl-3 col-lg-3 col-md-10 col-sm-10 mb-4">
+      <section id="TrabalheConosco" class="g-2 bg-white rounded p-5" aria-label="Formulário Trabalhe Conosco">
         <form class="row">
-          <div class="col-12">
-            <h4>
-              <b>
-                Seja um parceiro
-              </b>
-            </h4>
-          </div>
-          <div class="col-12">
-            <h6 style="">
-              <b>
-                Entraremos em contato
-              </b>
-            </h6>
-          </div>
-
+          <legend class="col-12">
+            <h4><b>Seja um parceiro</b></h4>
+            <h6><b>Entraremos em contato</b></h6>
+          </legend>
           <div class="form-group col-12">
             <label for="nome" class="form-label form-p">Nome:</label>
-            <input type="text" id="nome" name="nome" class="form-control" required>
+            <input type="text" id="nome" name="nome" class="form-control" required aria-label="Nome">
           </div>
           <div class="form-group col-12">
             <label for="empresa" class="form-label form-p">Sua empresa:</label>
-            <input type="text" id="empresa" name="empresa" class="form-control" required>
+            <input type="text" id="empresa" name="empresa" class="form-control" required aria-label="Sua empresa">
           </div>
           <div class="form-group col-12">
             <label for="email" class="form-label form-p">E-mail:</label>
-            <input type="email" id="email" name="email" class="form-control" required>
+            <input type="email" id="email" name="email" class="form-control" required aria-label="E-mail">
           </div>
           <div class="form-group col-12">
             <label for="contato" class="form-label form-p">Contato:</label>
-            <input type="text" id="contato" name="contato" class="form-control" required>
+            <input type="text" id="contato" name="contato" class="form-control" required aria-label="Contato">
           </div>
           <div class="form-group col-12 text-center p-3">
-            <button type="submit" id="enviar" class="enviar btn btn-success px-5">
+            <button type="submit" id="enviar" class="enviar btn btn-success px-5" aria-label="Enviar formulário">
               <strong>Enviar</strong>
             </button>
           </div>
@@ -187,7 +174,7 @@
       Leve nossas soluções para sua empresa
     </h4>
     <p  class="">
-      <a href="#" class="btn btn-warnning"  style="text-shadow: none;color: white; background-color: var(--terciaria); " title="Saiba Mais fale com um de nossos advogados"> 
+      <a href="#" class="btn my-btn-orange"  title="Saiba Mais fale com um de nossos advogados"> 
         <strong>
           Saiba Mais
         </strong>
@@ -332,15 +319,17 @@
       <div class="row">
         <div class="col-12 text-center mt-5 mb-5 pt-3">
           <p>
-            <a href="#" title="Botão saiba mais, fale com um de nossos advogados"> 
-              <img src="assets/images/aba3/BtSaibaMais.png" width="200" alt="Botão Saiba Mais" > 
-            </a>
-          </p>
-        </div>
+           <a href="#" class="btn my-btn-orange"  title="Saiba Mais fale com um de nossos advogados"> 
+            <strong>
+              Saiba Mais
+            </strong>
+          </a>
+        </p>
       </div>
-
     </div>
+
   </div>
+</div>
 </div>
 </section>
 
@@ -402,14 +391,14 @@
 
       <div class="col-10 mt-5 mb-5 ">
         <p class="col-10 col-xl-6 col-lg-6 col-md-10 col-sm-10  ">
-          <a href="#" class="btn text-white " style="font-weight: 900; background: var(--terciaria);" title="Fale com um de nossos consultores do Grupo Morais">
-            <span style="padding: 5px 20px; font-size:1.2rem ">Fale com um de nossos Consultores</span>
-          </a>
-        </p>
-      </div>
+          <a href="#" class="btn my-btn-orange" title="Fale com um de nossos consultores do Grupo Morais">
+           Fale com um de nossos Consultores
+         </a>
+       </p>
+     </div>
 
-    </div>    
-  </div>
+   </div>    
+ </div>
 </section>
 
 <section id="Chamada1" class="container-fluid  mt-5 mb-5  p-xl-5 p-lg-5 p-md-3 p-sm-1  text-center" >
@@ -761,30 +750,43 @@ window.addEventListener('load', updateCarousel);
 <!-- fim da seção de clientes-->
 
 <footer id="Footer">
-  <div class="container-fluid">
-    <div class="row d-flex justify-content-center align-items-center">
+  <div class="container-fluid mt-5">
+    <div class="row gx-5 d-flex justify-content-center align-items-start">
 
       <!-- Logo -->
       <div class="col-8 col-xl-2 col-lg-2 col-md-7 col-sm-7">
-        <p class="text-center d-flex justify-content-center align-items-center">
+        <p class="d-flex justify-content-center align-items-start">
           <a href="" title="Imagem do logo do grupo morais com link para Voltar ao topo da página">
-            <img src="assets/images/footer/LogoGrupoMoraisVertical.png" class="img-fluid" alt="" style="max-width:100%;">
+            <img src="assets/images/footer/LogoGrupoMoraisVertical.png" class="img-fluid" alt="" style="max-width:80%;">
           </a>      
         </p>  
       </div>
 
       <!-- Links -->
-      <div class="col-10 col-xl-8 col-lg-8 col-md-10 col-sm-10 d-flex justify-content-center">
-        <p class="text-center footer-link-sm">
-          <a href="#" title="Política de Privacidade">Política de Privacidade</a>
-          <a href="#" title="Política de Segurança da Informação">Política de Segurança da Informação</a>
-          <a href="#" title="Código de Ética e Conduta">Código de Ética e Conduta</a>
-          <a href="#" title="Política de Cookies">Política de Cookies</a>
-          <a href="#" title="Política De Integridade e Compliance">Política De Integridade e Compliance</a>
-          <a href="#" title="Seja uma empresa parceira">Seja uma empresa parceira</a>
-          <a href="#" title="Grupo Morais na mídia">Grupo Morais na mídia</a>
-          <a href="#" title="Fale conosco">Fale conosco</a>
-        </p>
+      <div class="col-10 col-xl-6 col-lg-6 col-md-10 col-sm-10 d-flex justify-content-center">
+        <div class="row justify-content-center align-items-center">
+
+          <div class="col-12">
+            <p class="text-center footer-link-sm">
+              <a href="#" class="" title="Política de Privacidade">Política de Privacidade</a>
+              <a href="#" title="Política de Segurança da Informação">Política de Segurança da Informação</a>
+              <a href="#" title="Código de Ética e Conduta">Código de Ética e Conduta</a>
+              <a href="#" title="Política de Cookies">Política de Cookies</a>
+              <a href="#" title="Política De Integridade e Compliance">Política De Integridade e Compliance</a>
+              <a href="#" title="Seja uma empresa parceira">Seja uma empresa parceira</a>
+              <a href="#" title="Grupo Morais na mídia">Grupo Morais na mídia</a>
+              <a href="#" title="Fale conosco">Fale conosco</a>
+            </p>
+          </div>
+
+          <div class="col-12">
+            <div class="col-12" >
+              <p class="text-center " style="color: black;">
+                <strong> © Copyright 2024 - Todos direitos reservados </strong>
+              </p>
+            </div> 
+          </div>
+        </div>
       </div>
 
       <!-- Redes sociais -->
@@ -805,14 +807,7 @@ window.addEventListener('load', updateCarousel);
           </a>
         </p>
       </div>
-
     </div>
-  </div>
-
-  <div class="col-10">
-    <p class="text-center " style="color: black;">
-      <strong> © Copyright 2024 - Todos direitos reservados </strong>
-    </p>
   </div>
 </footer>
 <script> document.addEventListener("DOMContentLoaded", function() { const images = document.querySelectorAll("img"); images.forEach(image => { // Adiciona o atributo lazy loading às imagens image.setAttribute("loading", "lazy"); }); console.log("Lazy loading adicionado a todas as imagens."); }); </script>
