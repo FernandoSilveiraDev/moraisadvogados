@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 :root {
-  --laranja :rgba(248,82, 0, 1)
-
-}*{
-/*  border: 1px solid red;*/
+  --laranja :   rgba(248,82, 0, 1); /* laranja escuro*/
+  --primaria: rgba(0,0,0,1);/* */
+  --terciaria:  rgba(255,94,0, 1) ; /* laranja claro*/
+  --quatenaria:rgba(230,92,11,1); /* vermelho-alaranjado forte */
+  --quintenaria :rgba(255,0,0,1); /* Vermelho puro*/
+  --sextenaria :rgba(0,191,99,1); /* verde */
+  --setenaria: rgba(234, 168, 68, 1); 
 }
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+*{
+  border: 1px solid red;
+}*/
+a.btn:hover{
+  opacity: 0.7;
+}
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -14,28 +28,25 @@ body {
   font-size: 1rem;
 
 }
-h1{
-  Font-size:5rem
-}
-h2{
-  font-size: 4rem
-}
-h3{
-  font-size: 3rem;
-}
-h4{
-  font-size: 2rem ;
+
+strong{
   font-weight: 900;
 }
-h5{
-  font-size: 1.8rem;
-}
-h6{
-  font-size: 1.50rem ;
-  font-weight: 600;
-}
 p{
-  font-size:2rem;
+  font-size:1.4rem;
+}
+footer p {
+  font-size: 1.5rem;
+}
+footer a{
+  color: black;
+  font-weight: 900;
+  margin: 0 5px;
+  font-size: 1.2rem;
+}
+footer img{
+  max-width: 250px;
+  display: block;
 }
 .nav-link {
   color: black !important;
@@ -45,8 +56,11 @@ p{
 .nav-link:hover{
   color: #444!important;
 }
+#Solucoes ul{
+  margin: 0 auto;
+}
 #Solucoes ul li::marker{
-  font-size: 3rem;
+/*  font-size: 2rem;*/
 }
 #Solucoes h2 {
   font-size: 5.5rem;
@@ -65,197 +79,199 @@ p{
   font-size: 1.2rem;
   font-weight: 400;
   display: block;
-  width:90%;
 }
 .bg-light {
   background: white !important;
 }
+footer a {
+  text-decoration:none;
+}
+footer a:hover, .nav-link:hover{
+  color: var(--laranja) !important;
+}
 #SectionForm{
   background: url(../images/aba1/Aba1FundoLaranja.png);
+  background-attachment: fixed; 
+  background-position: cover top; 
+  background-repeat: no-repeat; 
+
 }
-.section-form input{
+.SectionForm input{
   background: #f3f3f3;
-}
-.fs{
-  font-size: 1.2rem;
-  font-weight: 900;
-}
-.fs-h2{
-  font-size: 3rem;
-  font-weight: 500;
-}
-.fs-h2 > strong{
-  font-size: 3.3rem;
-  font-weight: 900;
-}
-.fs-h-p{
-  font-size: 2rem;
-  font-weight: 900;
-}
-.fs-h3{
-  font-size: 2.4rem;
 }
 .form-p{
   font-size: 1.8rem;
 }
-
-
 #Inadimplencia{
   background: url(../images/aba3/InadimplenciaFundo.png) no-repeat left top;
   color:white;
   min-height: 1080px;
   padding: 100px 150px;
-  background-repeat: repeat-x;
+  background-attachment: fixed; 
+  background-position: cover bottom; 
+  background-repeat: no-repeat; 
 }
 #Inadimplencia{
   background-position-x:100% ;
   background-position-y: 40%;
   min-height: 100vh;
 }
-#Inadimplencia h2{
-  font-size: 3rem;
-  font-weight:900;
-  color: white;
-}
-#Inadimplencia h3{
-  font-size: 2.6rem;
-  font-weight:600;
-  color: white;
-}
-#Inadimplencia ul li  {
-  font-size: 1.8rem;
-  font-weight: 600;
-  
-}
-#Inadimplencia p {
-  font-size:1.7rem;
-}
 .enviar{
-  font-size: 1.3rem;
-  text-shadow: 1px 1px 4px #666;
+  font-size: 1.4rem;
 }
-#Inadimplencia ul{
+#Inadimplencia ul, #Acessoria ul{
   list-style-image:  url(../images/aba3/Bolinhalaranja.png);
+  font-size:1.6rem;
+}
+#SectionForm ul{
+  font-size:1.8rem;
 }
 .logo{
   width:300px;
   height:55px;
 }
 #TecnologiasHeader {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: black;
 }
-#Tecnologias h6 {
-  padding: 10px 10px 30px 10px;
+#Tecnologia h6 {
+  font-size: 1.8rem !important;
+  font-weight: 900 !important;
 }
-@media (max-width: 1000px) {
- #SectionForm{
-  background-position: 20% 00%;
-  background-size: cover cover;
-}
-#Solucoes ul li::marker{
-  font-size: 1.6rem;
-}
-#Solucoes h2 {
-  font-size: 2.7rem;
-  font-weight:500;
-}
-#Solucoes h2 >  strong{
-  ont-size: 3rem;
-  font-weight: 900;
-}
-#Solucoes{
-  padding: 10%;
+#Acessoria {
+  display: grid;
+  min-height: 70vh;
+  color:white;
+  background: url(../images/aba5/FundoAcessoria.png);
+
+  background-size: stretch; 
 
 }
+#Acessoria h2 {
+  font-size: 3rem;
+}
+#Estrutura img{
+  display: block;
+  min-width: 100%;
+  border-radius: 5%;
+  min-height: auto;
+}
+#Acessoria p{
+  font-size: 2.6rem
+}
+#Fraudes{
+  background: url(../images/aba8/FraudesFundo.png);
+  
+  box-shadow: inset 0px 0px 30px 11px rgba(0, 0, 0, 0.75);
+  background-attachment: fixed; 
+  background-size: cover; 
+  background-repeat: none;
+}
+.footer-link-sm{
+  display: block !important;
+  width:100% !important;
 
-
+}
+#Footer img {
+  max-width: 100%; /* Limita a largura da imagem à largura da coluna */
+  height: auto;    /* Mantém a proporção da imagem */
+}
 #Inadimplencia{
   background: url(../images/aba3/InadimplenciaFundo.png) no-repeat right bottom  ;
-  background-position-x:60% ;
-  background-position-y: 40%;
-  filter: ;
   padding: 100px 50px;
-  min-height: 100vh;
+  background-repeat: no-repeat; 
 }
 #TrabalheConosco label {
   text-align:left;
 }
 
+/* Ajuste tela MD */
+@media (max-width:976px) { 
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  #QuemSomos{
+    font-size: 1.1rem;
+  }
+  .QuemSomosHeader{
+    font-size: 0.8rem;
+    font-weight:900;
+    color: var(--laranja);
+
+  }
+  .QuemSomosHeader2{
+    font-size: 0.8rem;
+  }
 
 }
-#Inadimplencia * {
-  text-shadow: 3px 3px 3px #444 ;
-}
-@media (max-width: 575.98px) {
+
+/* TELA SM */
+@media (max-width:576px) {   
+
   body {
     font-size: 1.2rem;
 
   }
+  h1{
+    font-size: 3rem ;
+    font-weight: 900;
+  }
+  h2{
+    font-size: 2rem ;
+    font-weight: 900;
+  }
+  h3{
+    font-size: 1.8rem ;
+    font-weight: 900;
+  }
   h4{
     font-size: 1.6rem ;
     font-weight: 900;
-    text-shadow: 1px 1px 3px #333;
+  }
+  h5{
+    font-size: 1.5rem ;
+    font-weight: 900;
   }
   h6{
-    font-size: 1.4rem ;
+    font-size: 1.1rem ;
+    font-weight: 900;
   }
-
-  #SectionForm{
-
-    padding: 5%;
-    background-position: 40% 00%;
-    background-repeat: revert;
-  }
-
   #Solucoes{
     padding: 25% 10%;
 
   }
-  #Solucoes ul li::marker{
-    font-size: 1.8rem;
-  }
+
   #TrabalheConosco label {
     font-size: 1.0rem;
   }
   #TrabalheConosco input {
     font-size: 1.2rem;
   }
-  .fs{
-    font-weight: 900;
-  }
-  .fs-h2{
-    font-size: 2rem;
-  }
-  .fs-h-p{
-    font-size: 1rem;
-    font-weight: 900;
-  }
-  .fs-h3{
-    font-size: 1.7rem;
-    font-weight: 900;
-  }
-  .form-p{
-    font-size: 1.0rem;
-  }
   #QuemSomos{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .QuemSomosHeader{
-    font-size: 4rem;
+    font-size: 2.8rem;
     font-weight:900;
     color: var(--laranja);
 
   }
+  li{
+    font-size: 1.1rem !important;
+  }
+  p {
+    font-size: 1.2rem !important;
+  }
+  ul li::marker{
+    font-size: 0.5rem !important;
+  }
+  #QuemSomos p {
+    font-size: 1.2rem;
+  }
   .QuemSomosHeader2{
-    font-size: 2rem;
-  }
-  #Inadimplencia h2{
-    font-size: 2rem;
-  }
-  #Inadimplencia h3{
-    font-size: 1.6rem;
+    font-size: 1.9rem;
   }
   #Inadimplencia ul li  {
     font-size: 1.1rem;
@@ -265,7 +281,7 @@ p{
     font-size:1.1rem;
   }
   .enviar{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   .logo{
     width:242px;
@@ -278,7 +294,7 @@ p{
   #TecnologiasHeader > strong{
     display: block;
   }
-  .container, .container-fluids{
+  .container, .container-fluid{
     margin:0;
     padding:0;
 
@@ -291,7 +307,7 @@ p{
     text-align: left;
   }
   #Inadimplencia h2{
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
   #Inadimplencia h3{
     font-size: 1.4rem;
@@ -303,32 +319,46 @@ p{
   #Inadimplencia p {
     font-size:1.3rem;
   }
-  .enviar{
-    font-size: 1.0rem;
-  }
   #Inadimplencia{
-    background: url(../images/aba3/InadimplenciaFundo.png) no-repeat right bottom  ;
-    background-position-x: 55% ;
-    background-position-y: 20%;
-    padding: 100px 20px;
-    min-height: 100vh;
-  }
-  #TrabalheConosco {
-    padding:10%
-  }
+   background: url(../images/aba3/InadimplenciaFundo.png) no-repeat right bottom  ;
+   padding: 100px 50px;
+   background-position: left bottom; 
+   background-repeat: no-repeat; 
+ }
+ #TrabalheConosco {
+  padding:10%;
 }
-
 .navbar-nav {
-  flex-direction: row; /* para manter os itens na mesma linha */
+  flex-direction: column;
+  align-items: center;
+}
+#QuemSomos{
+  font-size: 2.2rem;
+}
+.QuemSomosHeader{
+  font-size:1.9rem;
+  font-weight:900;
+  color: var(--laranja);
+
+}
+.QuemSomosHeader2{
+  font-size: 1.5rem;
+}
+#Footer .col-12.col-xl-2, #Footer .col-12.col-xl-8 {
+  margin-bottom: 10px;  Adiciona espaçamento entre os elementos em telas menores 
 }
 
-.nav-item {
-  margin: 0 15px; /* ajuste conforme necessário */
+.carousel-item {
+  text-align: center;
 }
-
-@media (max-width: 992px) { /* ajuste o breakpoint conforme necessário */
-  .navbar-nav {
-    flex-direction: column;
-    align-items: center;
-  }
+.carousel-item img {
+  margin: auto;
+  max-width: 80%;
+}
+#SectionForm h2{
+  font-size: 2rem;
+}
+#SectionForm {
+  padding: 0;
+}
 }
