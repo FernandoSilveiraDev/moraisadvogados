@@ -21,7 +21,9 @@
 /*  border: 1px solid red;*/
 }
 
-
+html{
+ scroll-padding-top: 60px; /* ajuste este valor conforme a altura da sua barra de navegação */
+}
 a.btn:hover{
   opacity: 0.7;
 }
