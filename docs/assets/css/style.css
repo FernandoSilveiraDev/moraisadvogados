@@ -76,12 +76,23 @@ footer img{
 }
 
 #Solucoes h2 {
-  font-size: 5.5rem;
+  font-size: 4rem;
   font-weight:500;
 }
 
 #Solucoes h2 >  strong{
  font-weight: 900;
+}
+#Solucoes > p {
+ font-size: 2rem;
+}
+#TrabalheConosco h4 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+#TrabalheConosco h5{
+  font-size: 1.6rem;
+  font-weight: 900;
 }
 
 #TrabalheConosco label {
@@ -110,10 +121,9 @@ footer a:hover, .nav-link:hover{
 }
 
 #SectionForm{
-  background: url(../images/aba1/Aba1FundoLaranja.png);
-  background-attachment: scroll; 
-  background-size: cover top; 
-  background-repeat: no-repeat; 
+  background: url(../images/aba1/Aba1FundoLaranja.png) no-repeat center center scroll ; 
+  background-size: cover; 
+  min-height: 100vh; 
 
 }
 
@@ -121,8 +131,14 @@ footer a:hover, .nav-link:hover{
   background: #f3f3f3;
 }
 
+#SectionForm ul{
+  font-size:1.8rem;
+}
+
+
 .form-p{
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .enviar{
@@ -134,13 +150,9 @@ footer a:hover, .nav-link:hover{
   font-size:1.6rem;
 }
 
-#SectionForm ul{
-  font-size:1.8rem;
-}
-
 .logo{
-  width:300px;
-  height:55px;
+  width:275px;
+  height:45px;
 }
 
 #TecnologiasHeader {
@@ -246,7 +258,9 @@ footer a:hover, .nav-link:hover{
   background-size: cover; 
   background-repeat: none;
 }
-
+/*
+Ajustes finais
+*/
 #Acessoria h2 {
   font-size: 3rem;
 }
@@ -258,23 +272,31 @@ footer a:hover, .nav-link:hover{
 #Clientes h2 {
   font-size: 3rem;
 } 
-/* Ajuste tela MD */
 
 #chamada1-title1{
-  font-size:3rem;
+  font-size: 3rem;
+  color: black;
 }
 #chamada1-title2
 {
   font-size: 4rem;
-  margin: 30px 0px ;
 }
 #chamada1-title3{
   font-size: 3rem;
 }
 #chamada1-title4{
-  font-size: 3rem;
+  font-size: 2.5rem;
+}
+#Chamada1  h3 {
+  margin: 24px 0px ;
+  color: black;
+
 }
 
+#Chamada2 h2 {
+  font-size: 4 rem;
+}
+/* Ajuste tela MD */
 @media (max-width:976px) { 
   .navbar-nav {
     flex-direction: column;
@@ -341,13 +363,6 @@ footer a:hover, .nav-link:hover{
 
   }
 
-  #TrabalheConosco label {
-    font-size: 1.0rem;
-  }
-
-  #TrabalheConosco input {
-    font-size: 1.2rem;
-  }
 
   #QuemSomos{
     font-size: 1rem;
