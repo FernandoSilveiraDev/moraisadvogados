@@ -111,7 +111,7 @@ footer a:hover, .nav-link:hover{
 
 #SectionForm{
   background: url(../images/aba1/Aba1FundoLaranja.png);
-  background-attachment: fixed; 
+  background-attachment: scroll; 
   background-size: cover top; 
   background-repeat: no-repeat; 
 
@@ -175,10 +175,9 @@ footer a:hover, .nav-link:hover{
   min-height: auto;
 }
 
-#Fraudes{
+#Podcast{
   background: url(../images/aba8/FraudesFundo.png);
-  box-shadow: inset 0px 0px 30px 11px rgba(0, 0, 0, 0.75);
-  background-attachment: fixed; 
+  background-attachment: scroll; 
   background-size: cover; 
   background-repeat: none;
   font-size: 1.8rem;
@@ -196,7 +195,7 @@ footer a:hover, .nav-link:hover{
 }
 
 #Inadimplencia { 
-  background: url(../images/aba3/InadimplenciaFundo.png) no-repeat center center fixed ; 
+  background: url(../images/aba3/InadimplenciaFundo.png) no-repeat center center scroll ; 
   background-size: cover; 
   color: white; 
   min-height: 100vh; 
@@ -219,7 +218,6 @@ footer a:hover, .nav-link:hover{
   text-align: center; /* Alinhamento centralizado */
   text-decoration: none; /* Remover sublinhado */
   display: inline-block; /* Para evitar comportamento de bloco completo */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
   transition: transform 0.3s ease; /* Efeito ao passar o mouse */
 }
 
@@ -232,19 +230,19 @@ footer a:hover, .nav-link:hover{
  text-align: center; /* Alinhamento centralizado */
  text-decoration: none; /* Remover sublinhado */
  display: inline-block; /* Para evitar comportamento de bloco completo */
- box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
  transition: transform 0.3s ease; /* Efeito ao passar o mouse */
 }
 
 .btn:hover {
-  transform: scale(1.05); /* Leve aumento ao passar o mouse */
+  transform: scale(1.01); /* Leve aumento ao passar o mouse */
   color: white;
+  text-shadow: none;
 }
 
 #Acessoria {
   color:white;
   background: url(../images/aba5/FundoAcessoria.png) ;
-  background-attachment: fixed; 
+  background-attachment: scroll; 
   background-size: cover; 
   background-repeat: none;
 }
@@ -261,6 +259,22 @@ footer a:hover, .nav-link:hover{
   font-size: 3rem;
 } 
 /* Ajuste tela MD */
+
+#chamada1-title1{
+  font-size:3rem;
+}
+#chamada1-title2
+{
+  font-size: 4rem;
+  margin: 30px 0px ;
+}
+#chamada1-title3{
+  font-size: 3rem;
+}
+#chamada1-title4{
+  font-size: 3rem;
+}
+
 @media (max-width:976px) { 
   .navbar-nav {
     flex-direction: column;
