@@ -257,8 +257,6 @@ footer a:hover, .nav-link:hover{
 
 #Clientes h2 {
   font-size: 3rem;
-  font-weight:900;
-  text-shadow: -1px -1px 1px black;
 } 
 /* Ajuste tela MD */
 @media (max-width:976px) { 
