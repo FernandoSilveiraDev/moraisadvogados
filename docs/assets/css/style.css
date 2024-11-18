@@ -21,70 +21,69 @@
 /*  border: 1px solid red;*/
 }
 
-a.btn:hover{
-  opacity: 0.7;
-}
+@media (max-width:2000px){
+ 
+  a.btn:hover{
+    opacity: 0.7;
+  }
 
-body {
-  font-family: 'Lato', sans-serif;
-  margin: 0;
-  padding: 0;
-  font-size: 1rem;
+  body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
 
-}
+  }
 
-strong{
-  font-weight: 900;
-}
+  strong{
+    font-weight: 900;
+  }
 
-p { 
-  line-height: 2; 
-}
+  p { 
+    font-size: 1.5rem;
+    line-height: 2; 
+  }
 
-footer p {
-  font-size: 1.2rem;
-}
+  footer p {
+    font-size: 1.2rem;
+  }
 
-footer a{
-  color: black;
-  font-weight: 900;
-  margin: 0 5px;
-  font-size: 1.2rem;
-}
+  footer a{
+    color: black;
+    font-weight: 900;
+    margin: 0 5px;
+    font-size: 1.2rem;
+  }
 
-footer img{
-  max-width: 250px;
-  display: block;
-}
+  footer img{
+    max-width: 250px;
+    display: block;
+  }
 
-.nav-link {
-  color: black !important;
-  opacity:1;
-  font-weight: 700;
-}
+  .nav-link {
+    color: black !important;
+    opacity:1;
+    font-weight: 700;
+  }
 
-.nav-link:hover{
-  color: #444!important;
-}
+  .nav-link:hover{
+    color: #444!important;
+  }
 
-#Solucoes ul{
-  margin: 0 auto;
-}
+  #Solucoes ul{
+    margin: 0 auto;
+  }
 
-#Solucoes ul li::marker{
-/*  font-size: 2rem;*/
-}
+  #Solucoes h2 {
+    font-size: 5.5rem;
+    font-weight:500;
+  }
 
-#Solucoes h2 {
-  font-size: 5.5rem;
-  font-weight:500;
-}
+  #Solucoes h2 >  strong{
+   font-weight: 900;
+ }
 
-#Solucoes h2 >  strong{
- font-weight: 900;
-}
-
-#TrabalheConosco label {
+ #TrabalheConosco label {
   font-size: 1.2rem;
   font-weight: 400;
   display: block;
@@ -144,8 +143,8 @@ footer a:hover, .nav-link:hover{
 }
 
 #TecnologiasHeader {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 2.1rem;
+  font-weight: 900;
   color: black;
 }
 
@@ -261,8 +260,8 @@ footer a:hover, .nav-link:hover{
   font-size: 3rem;
   font-weight:900;
   text-shadow: -2px -1px 2px black;
+} 
 }
-
 /* Ajuste tela MD */
 @media (max-width:976px) { 
   .navbar-nav {
