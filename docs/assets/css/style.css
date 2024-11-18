@@ -71,21 +71,24 @@ footer img{
   color: #444!important;
 }
 
-#Solucoes ul{
+
+#Nossas-Solucoes ul{
   margin: 0 auto;
 }
 
-#Solucoes h2 {
+#Nossas-Solucoes h2 {
   font-size: 4rem;
   font-weight:500;
 }
 
-#Solucoes h2 >  strong{
+#Nossas-Solucoes h2 >  strong{
  font-weight: 900;
 }
-#Solucoes > p {
+
+#Nossas-Solucoes > p {
  font-size: 2rem;
 }
+
 #TrabalheConosco h4 {
   font-size: 2rem;
   font-weight: 900;
@@ -126,13 +129,20 @@ footer a:hover, .nav-link:hover{
   min-height: 100vh; 
 
 }
-
+#SectionForm h2 {
+  font-size: 4rem;
+  margin: 20px 0;
+}
+#SectionForm p{
+  font-size: 2rem;
+  margin: 20px 0;
+}
 #SectionForm input{
   background: #f3f3f3;
 }
 
 #SectionForm ul{
-  font-size:1.8rem;
+  font-size:2rem;
 }
 
 
@@ -147,7 +157,7 @@ footer a:hover, .nav-link:hover{
 
 #Nossas-Solucoes ul, #Acessoria ul{
   list-style-image:  url(../images/aba3/Bolinhalaranja.png);
-  font-size:1.6rem;
+  font-size:2rem;
 }
 
 .logo{
@@ -156,7 +166,7 @@ footer a:hover, .nav-link:hover{
 }
 
 #TecnologiasHeader {
-  font-size: 2.1rem;
+  font-size: 3rem;
   font-weight: 900;
   color: black;
 }
@@ -370,14 +380,8 @@ Ajustes finais
     font-size: 1.1rem;
   }
 
-  .QuemSomosHeader{
-    font-size: 0.8rem;
-    font-weight:900;
-    color: var(--laranja);
 
-  }
-
-  .QuemSomosHeader2{
+  .Quem-Somos-Header2{
     font-size: 0.8rem;
   }
 
@@ -421,7 +425,7 @@ Ajustes finais
     font-weight: 900;
   }
 
-  #Solucoes{
+  #Nossas-Solucoes{
     padding: 25% 10%;
 
   }
@@ -431,8 +435,8 @@ Ajustes finais
     font-size: 1rem;
   }
 
-  .QuemSomosHeader{
-    font-size: 2.8rem;
+  .Quem-Somos h1{
+    font-size: 4rem;
     font-weight:900;
     color: var(--laranja);
 
@@ -447,14 +451,14 @@ Ajustes finais
   }
 
   ul li::marker{
-    font-size: 0.5rem !important;
+    font-size: 1rem !important;
   }
 
   #Quem-Somos p {
     font-size: 1.2rem;
   }
 
-  .QuemSomosHeader2{
+  .Quem-Somos-Header2{
     font-size: 1.9rem;
   }
 
@@ -535,17 +539,14 @@ Ajustes finais
     align-items: center;
   }
 
-  #Quem-Somos{
-    font-size: 2.2rem;
-  }
-
-  .QuemSomosHeader{
+  #Quem-Somos h1 {
+    font-size: 4rem !important;
+    color: var(--laranja);
     font-size:1.9rem;
     font-weight:900;
-    color: var(--laranja);
   }
 
-  .QuemSomosHeader2{
+  .Quem-Somos-Header2{
     font-size: 1.5rem;
   }
 
