@@ -145,7 +145,7 @@ footer a:hover, .nav-link:hover{
   font-size: 1.4rem;
 }
 
-#Inadimplencia ul, #Acessoria ul{
+#Nossas-Solucoes ul, #Acessoria ul{
   list-style-image:  url(../images/aba3/Bolinhalaranja.png);
   font-size:1.6rem;
 }
@@ -206,7 +206,7 @@ footer a:hover, .nav-link:hover{
   height: auto;    /* Mantém a proporção da imagem */
 }
 
-#Inadimplencia { 
+#Nossas-Solucoes { 
   background: url(../images/aba3/InadimplenciaFundo.png) no-repeat center center scroll ; 
   background-size: cover; 
   color: white; 
@@ -296,6 +296,69 @@ Ajustes finais
 #Chamada2 h2 {
   font-size: 4 rem;
 }
+
+/* Inicio Clientes  */
+
+
+.custom-carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.custom-carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.custom-carousel-item {
+  flex: 0 0 25%; /* Cada item ocupa 25% da largura do contêiner */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-carousel-item img {
+  max-width: 80%;
+  height: auto; /* Mantém a proporção das imagens */
+  display: block;
+  margin: 0 auto;
+}
+
+.custom-carousel-control-prev,
+.custom-carousel-control-next {
+  cursor: pointer;
+  font-size: 24px; /* Tamanho das setas */
+  color: #fff; /* Cor das setas */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 10px;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.custom-carousel-control-prev {
+  left: 10px;
+}
+
+.custom-carousel-control-next {
+  right: 10px;
+}
+
+
+
+/* Fim Clientes  */
+#Clientes {
+  background: #333;
+}
 /* Ajuste tela MD */
 @media (max-width:976px) { 
   .navbar-nav {
@@ -303,7 +366,7 @@ Ajustes finais
     align-items: center;
   }
 
-  #QuemSomos{
+  #Quem-Somos{
     font-size: 1.1rem;
   }
 
@@ -364,7 +427,7 @@ Ajustes finais
   }
 
 
-  #QuemSomos{
+  #Quem-Somos{
     font-size: 1rem;
   }
 
@@ -387,7 +450,7 @@ Ajustes finais
     font-size: 0.5rem !important;
   }
 
-  #QuemSomos p {
+  #Quem-Somos p {
     font-size: 1.2rem;
   }
 
@@ -395,11 +458,11 @@ Ajustes finais
     font-size: 1.9rem;
   }
 
-  #Inadimplencia ul li  {
+  #Nossas-Solucoes ul li  {
     font-size: 1.1rem;
   }
 
-  #Inadimplencia p {
+  #Nossas-Solucoes p {
     font-size:1.1rem;
   }
 
@@ -436,25 +499,25 @@ Ajustes finais
     text-align: left;
   }
 
-  #Inadimplencia h2{
+  #Nossas-Solucoes h2{
     font-size: 1.9rem;
   }
 
-  #Inadimplencia h3{
+  #Nossas-Solucoes h3{
     font-size: 1.4rem;
   }
 
-  #Inadimplencia ul li  {
+  #Nossas-Solucoes ul li  {
     font-size: 1.4rem;
   }
 
-  #Inadimplencia p {
+  #Nossas-Solucoes p {
     font-size:1.3rem;
   }
 
-  #Inadimplencia {
+  #Nossas-Solucoes {
     background: 
-    url(../images/aba3/InadimplenciaFundo.png) 
+    url(../images/aba3/NossasSolucoesFundo.png) 
     no-repeat 
     right bottom;
     padding: 100px 50px;
@@ -472,7 +535,7 @@ Ajustes finais
     align-items: center;
   }
 
-  #QuemSomos{
+  #Quem-Somos{
     font-size: 2.2rem;
   }
 
