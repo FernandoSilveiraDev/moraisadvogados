@@ -65,7 +65,12 @@ strong, b {
   font-size: 2rem;
 }
 
+#Nossas-Solucoes { 
+  background: url(../images/aba3/InadimplenciaFundo.png) no-repeat center center scroll ; 
+  background-size: cover; 
+  color: white; 
 
+}
 #Nossas-Solucoes ul{
   margin: 0 auto;
 }
@@ -187,7 +192,9 @@ strong, b {
   font-weight:900;
 
 }
-
+#Estrutura p {
+  font-size: 2.2rem
+}
 #Estrutura img{
   display: block;
   min-width: 100%;
@@ -198,7 +205,11 @@ strong, b {
 #Podcast{
   background: url(../images/aba8/FraudesFundo.png);no-repeat center center scroll ; 
   background-size: cover; 
-  font-size: 2rem;
+  font-size: 2.1rem;
+}
+#Podcast #Exploramos{
+
+  font-size: 2.5rem;
 }
 #Description-CEO-2{
   display: none;
