@@ -36,12 +36,9 @@ body {
 
 }
 
-strong{
+strong, b {
   font-weight: 900;
 }
-
-
-
 
 .nav-link {
   color: black !important;
@@ -199,13 +196,16 @@ strong{
 }
 
 #Podcast{
-  background: url(../images/aba8/FraudesFundo.png);
-  background-attachment: scroll; 
+  background: url(../images/aba8/FraudesFundo.png);no-repeat center center scroll ; 
   background-size: cover; 
-  background-repeat: none;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
-
+#Description-CEO-2{
+  display: none;
+}
+#Description-CEO-1{
+  display: block;
+}
 .footer-link-sm{
   display: block !important;
   width:100% !important;
@@ -215,15 +215,6 @@ strong{
 #Footer img {
   max-width: 100%; /* Limita a largura da imagem à largura da coluna */
   height: auto;    /* Mantém a proporção da imagem */
-}
-
-#Nossas-Solucoes { 
-  background: url(../images/aba3/InadimplenciaFundo.png) no-repeat center center scroll ; 
-  background-size: cover; 
-  color: white; 
-  min-height: 100vh; 
-  padding: 100px 50px; 
-
 }
 
 #TrabalheConosco label {
@@ -458,6 +449,15 @@ footer a:hover, .nav-link:hover{
     text-align: left;
   }
 
+  #Nossas-Solucoes { 
+    background: url(../images/aba3/InadimplenciaFundo.png) no-repeat center center scroll ; 
+    background-size: cover; 
+    color: white; 
+    min-height: 100vh; 
+    padding: 100px 50px; 
+
+  }
+
   #Nossas-Solucoes h2{
     font-size: 1.9rem;
     display: flex;
@@ -502,7 +502,12 @@ footer a:hover, .nav-link:hover{
   #TrabalheConosco {
     padding:10%;
   }
-
+  #Description-CEO-1{
+    display: none ;
+  }
+  #Description-CEO-2{
+    display: block;
+  }
   .navbar-nav {
     flex-direction: column;
     align-items: center;
