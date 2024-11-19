@@ -40,26 +40,8 @@ strong{
   font-weight: 900;
 }
 
-p { 
-  font-size: 1.5rem;
-  line-height: 2; 
-}
 
-footer p {
-  font-size: 1.2rem;
-}
 
-footer a{
-  color: black;
-  font-weight: 900;
-  margin: 0 5px;
-  font-size: 1.2rem;
-}
-
-footer img{
-  max-width: 250px;
-  display: block;
-}
 
 .nav-link {
   color: black !important;
@@ -71,6 +53,21 @@ footer img{
   color: #444!important;
 }
 
+#Quem-Somos h1 {
+  font-size: 4rem ;
+  color: var(--laranja);
+  font-weight:900;
+}
+
+
+#Quem-Somos p {
+  font-size: 1.6rem;
+}
+
+#Quem-Somos h2 {
+  font-size: 2rem;
+}
+
 
 #Nossas-Solucoes ul{
   margin: 0 auto;
@@ -80,6 +77,9 @@ footer img{
   font-size: 3.5rem;
   font-weight:500;
 }
+#Nossas-Solucoes h3{
+  font-size: 3rem;
+}
 #Nossas-Solucoes span{
   font-size: 4rem
 }
@@ -88,9 +88,17 @@ footer img{
 }
 
 #Nossas-Solucoes p ,
-
 #Nossas-Solucoes h3 ,
-
+#Nossas-Solucoes h4 {
+  font-size: 2rem;
+  padding: 20px 0 ;
+}
+#Nossas-Solucoes h4 {
+  font-weight: 900;
+}
+#Nossas-Solucoes ul li {
+  font-size: 1.6rem;
+}
 #TrabalheConosco h4 {
   font-size: 2rem;
 }
@@ -114,14 +122,6 @@ footer img{
 
 .bg-light {
   background: white !important;
-}
-
-footer a {
-  text-decoration:none;
-}
-
-footer a:hover, .nav-link:hover{
-  color: var(--laranja) !important;
 }
 
 #SectionForm{
@@ -233,7 +233,7 @@ footer a:hover, .nav-link:hover{
 .my-btn-orange {
   background-color: #ff6200; /* Cor de fundo laranja */
   color: #fff; /* Cor do texto branca */
-  font-size: 1.5rem; /* Tamanho do texto maior */
+  font-size: 1.6rem; /* Tamanho do texto maior */
   font-weight: bold; /* Texto em negrito */
   padding: 0px 20px; /* Espaçamento interno */
   border: none; /* Sem borda */
@@ -370,6 +370,31 @@ Ajustes finais
 #Clientes {
   background: #333;
 }
+
+
+footer p {
+  font-size: 1.2rem;
+}
+
+footer a{
+  color: black;
+  font-weight: 900;
+  margin: 0 5px;
+  font-size: 1.2rem;
+}
+
+footer img{
+  max-width: 250px;
+  display: block;
+}
+footer a {
+  text-decoration:none;
+}
+
+footer a:hover, .nav-link:hover{
+  color: var(--laranja) !important;
+}
+
 /* Ajuste tela MD */
 @media (max-width:976px) { 
   .navbar-nav {
@@ -377,91 +402,20 @@ Ajustes finais
     align-items: center;
   }
 
-  #Quem-Somos{
-    font-size: 1.1rem;
-  }
 
-
-  .Quem-Somos-Header2{
-    font-size: 0.8rem;
-  }
 
 }
 
 /* TELA SM */
 @media (max-width:576px) {   
 
-  body {
-    font-size: 1.2rem;
 
-  }
-
-  h1{
-    font-size: 3rem ;
-    font-weight: 900;
-  }
-
-  h2{
-    font-size: 2rem ;
-    font-weight: 900;
-  }
-
-  h3{
-    font-size: 1.8rem ;
-    font-weight: 900;
-  }
-
-  h4{
-    font-size: 1.6rem ;
-    font-weight: 900;
-  }
-
-  h5{
-    font-size: 1.5rem ;
-    font-weight: 900;
-  }
-
-  h6{
-    font-size: 1.1rem ;
-    font-weight: 900;
-  }
-
-  #Nossas-Solucoes{
-    padding: 25% 10%;
-
-  }
-
-
-  #Quem-Somos{
-    font-size: 1rem;
-  }
-
-  .Quem-Somos h1{
-    font-size: 4rem;
-    font-weight:900;
-    color: var(--laranja);
-
-  }
-
-  li{
-    font-size: 1.1rem !important;
-  }
-
-  p {
-    font-size: 1.2rem !important;
-  }
 
   ul li::marker{
     font-size: 1rem !important;
   }
 
-  #Quem-Somos p {
-    font-size: 1.2rem;
-  }
 
-  .Quem-Somos-Header2{
-    font-size: 1.9rem;
-  }
 
   #Nossas-Solucoes ul li  {
     font-size: 1.1rem;
@@ -506,9 +460,16 @@ Ajustes finais
 
   #Nossas-Solucoes h2{
     font-size: 1.9rem;
+    display: flex;
+    float: left;
   }
-
+  #Nossas-Solucoes span{
+    font-size: 2rem
+  }
   #Nossas-Solucoes h3{
+    font-size: 1.4rem;
+  }
+  #Nossas-Solucoes h4{
     font-size: 1.4rem;
   }
 
@@ -519,10 +480,17 @@ Ajustes finais
   #Nossas-Solucoes p {
     font-size:1.3rem;
   }
+  #Nossas-Solucoes span,
+  #Nossas-Solucoes h3,
+  #Nossas-Solucoes h4,
 
+  #Nossas-Solucoes p {
+    padding: 20px 0;
+  }
+  
   #Nossas-Solucoes {
     background: 
-    url(../images/aba3/NossasSolucoesFundo.png) 
+    url(../images/aba3/InadimplenciaFundo.png) 
     no-repeat 
     right bottom;
     padding: 100px 50px;
@@ -540,16 +508,7 @@ Ajustes finais
     align-items: center;
   }
 
-  #Quem-Somos h1 {
-    font-size: 4rem !important;
-    color: var(--laranja);
-    font-size:1.9rem;
-    font-weight:900;
-  }
 
-  .Quem-Somos-Header2{
-    font-size: 1.5rem;
-  }
 
   #Footer .col-12.col-xl-2, #Footer .col-12.col-xl-8 {
     margin-bottom: 10px;  Adiciona espaçamento entre os elementos em telas menores 
@@ -571,6 +530,8 @@ Ajustes finais
   #SectionForm {
     padding: 0;
   }
-
+  .br-none{
+    display: none;
+  }
 }
 
