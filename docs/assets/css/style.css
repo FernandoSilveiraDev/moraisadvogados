@@ -237,7 +237,59 @@ strong, b {
   min-height: auto;
 }
 
+#redes-folow {
+  position: fixed;
+  z-index: 9000;
+  display: flex;
+  max-width: 50px;
+  left: -50;
+  top:50%;
+  text-decoration: none;
+  font-size: 32px;
 
+}
+#redes-folow ul {
+  list-style: none;
+  text-align:center;
+  padding:0;
+  height: 250px;
+  background-color: rgba(0,0,0,.8);
+  display:block;
+  padding: 50px 0;
+}
+#redes-folow ul li a{
+  color: white;
+}
+.icon-instagram {
+  width: 50px; /* Tamanho do ícone */
+  height: 50px;
+  background: linear-gradient(45deg, #FEDA77, #D6249F, #8134AF, #515BD4);
+  /* Para deixar redondo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Cor do ícone dentro */
+  font-size: 50px; /* Tamanho do ícone interno */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombras para destaque */
+}
+.icon-linkedin {
+  width: 50px;
+  height: 50px;
+  background: #0A66C2; /* Azul oficial */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Cor do ícone */
+  font-size: 50px; /* Tamanho do ícone */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombras para destaque */
+}
+
+/* Animação (opcional) */
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
 
 #Podcast{
   background: url(../images/aba8/FraudesFundo.png);no-repeat center center scroll ; 
