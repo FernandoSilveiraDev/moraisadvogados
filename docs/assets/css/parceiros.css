@@ -1,0 +1,107 @@
+#ParceirosSection {
+    width: 100vw;
+    height: 12vw; /* Define a altura da seção */
+    overflow: hidden;
+    margin: 0 auto;
+    ;
+    position: relative;
+}
+
+#logoWrapper {
+    overflow: hidden;
+    width: 70vw; /* Ajusta largura para espaço dos botões */
+    margin: 0 ;
+}
+
+#logo-container {
+    display: flex;
+    height: 100%; /* Garante que o contêiner ocupe toda a altura */
+}
+
+#logo-container > div {
+    flex: 0 0 17vw !important; /* Cada item ocupa 20vw no desktop */
+
+    text-align: center !important;
+    margin: 0   !important; /* Remove qualquer margem */
+    padding: 0 !important; /* Remove qualquer padding */
+    box-sizing: border-box !important; /* Inclui border e padding no tamanho total */
+    opacity: 1; /* Inicialmente visível */
+    transition: opacity 0.5s ease-in-out; /* Efeito de transição */
+}
+
+#logo-container > div.fade-out {
+    opacity: 0; /* Transição para invisível */
+}
+
+#logo-container > div.fade-in {
+    opacity: 1; /* Transição para visível */
+}
+
+#logo-container > div img {
+    width: 70% !important;
+    height: 100% !important;
+    object-fit: cover !important; /* Garante que a imagem cubra toda a área sem distorção */
+    margin: 0 !important; /* Remove qualquer margem */
+    padding: 0 !important; /* Remove qualquer padding */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    cursor: pointer;
+    font-size: 50px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1; /* Garante que os botões fiquem acima das imagens */
+}
+
+.carousel-control-prev {
+    left: -50px; /* Ajuste para garantir que não fiquem sobre as imagens */
+}
+
+.carousel-control-next {
+    right: -50px; /* Ajuste para garantir que não fiquem sobre as imagens */
+}
+
+
+#Parceiros a {
+    text-decoration:  ;
+    display: block;
+    color: white;
+    font-size:50px
+}
+
+@media (max-width: 768px) { 
+    * {
+        border: 1px solid red;
+    }
+    #ParceirosSection { 
+        width: 100vw !important;
+    } 
+    .logoWrapper{
+        width: 50vw !important;
+    }
+    #logo-container > div { 
+
+        flex: 0 0 11vw !important; /* Cada item ocupa 50vw em telas md */
+    } 
+    #logo-container > img { 
+
+        width:10vw !important; /* Cada item ocupa 50vw em telas md */
+    } 
+
+
+} 
+@media (max-width: 576px) { 
+    #ParceirosSection { 
+        height: 80vw; /* Ajusta a altura para telas de celular */ 
+    } 
+    #logo-container > div 
+    { flex: 0 0 100vw !important; /* Cada item ocupa 100vw em telas sm */ 
+    } 
+
+}

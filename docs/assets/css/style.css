@@ -22,12 +22,14 @@
 }
 
 html{
- scroll-padding-top: 60px; /* ajuste este valor conforme a altura da sua barra de navegação */
+  scroll-padding-top: 100px; /* ajuste este valor conforme a altura da sua barra de navegação */
 }
 a.btn:hover{
   opacity: 0.7;
 }
-
+.navbar ul li{
+  line-height: 90px;
+}
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -50,12 +52,60 @@ strong, b {
   color: #444!important;
 }
 
+#SectionForm{
+  background: url(../images/aba1/Aba1FundoLaranja.png) no-repeat center center scroll ; 
+  background-size: cover; 
+  min-height: 100vh; 
+
+}
+#SectionForm h2 {
+  font-size: 4rem;
+  margin: 20px 0;
+}
+#SectionForm p{
+  font-size: 2rem;
+  margin: 20px 0;
+}
+#SectionForm input{
+  background: #f3f3f3;
+}
+#SectionForm ul{
+  font-size:2rem;
+}
+
+.form-p{
+  font-size: 2rem;
+  font-weight: 900;
+}
+.enviar{
+  font-size: 1.4rem;
+}
+
+#TrabalheConosco h4 {
+  font-size: 2rem;
+}
+#TrabalheConosco h5{
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+#TrabalheConosco label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: block;
+  width:100%;
+  text-align:left;
+}
+#TrabalheConosco input {
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: block;
+}
+
 #Quem-Somos h1 {
   font-size: 4rem ;
   color: var(--laranja);
   font-weight:900;
 }
-
 
 #Quem-Somos p {
   font-size: 1.6rem;
@@ -65,6 +115,7 @@ strong, b {
   font-size: 2rem;
 }
 
+/* Nossas soluções temos a solução da sua empresa  */
 #Nossas-Solucoes { 
   background: url(../images/aba3/InadimplenciaFundo.png) no-repeat center center scroll ; 
   background-size: cover; 
@@ -88,7 +139,6 @@ strong, b {
 #Nossas-Solucoes h2 >  strong{
  font-weight: 900;
 }
-
 #Nossas-Solucoes p ,
 #Nossas-Solucoes h3 ,
 #Nossas-Solucoes h4 {
@@ -98,109 +148,96 @@ strong, b {
 #Nossas-Solucoes h4 {
   font-weight: 900;
 }
+
+#Nossas-Solucoes ul{
+  list-style-image:  url(../images/aba3/Bolinhalaranja.png);
+  font-size:2rem;
+} 
+
 #Nossas-Solucoes ul li {
   font-size: 1.6rem;
 }
-#TrabalheConosco h4 {
-  font-size: 2rem;
+
+
+
+
+
+#Tecnologias h2 {
+  font-size: 4rem;
+  color: black;
 }
-#TrabalheConosco h5{
-  font-size: 1.6rem;
-  font-weight: 900;
+#Tecnologias  h5 {
+  font-size: 1.5rem;
+  text-align:center;
+  font-weight: 700;
+  color: black;
+}
+#Tecnologias img{
+  width:20% !important;
+  max-width: 100%;
 }
 
-#TrabalheConosco label {
-  font-size: 1.2rem;
-  font-weight: 400;
-  display: block;
-  width:100%;
+
+
+
+#Acessoria {
+  color:white;
+  background: url(../images/aba5/FundoAcessoria.png) ;
+  background-attachment: scroll; 
+  background-size: cover; 
+  background-repeat: none;
 }
 
-#TrabalheConosco input {
-  font-size: 1.2rem;
-  font-weight: 400;
-  display: block;
+#Acessoria ul{
+  list-style-image:  url(../images/aba3/Bolinhalaranja.png);
+  font-size:2rem;
 }
+
+#Acessoria h2 {
+  font-size: 4rem;
+}
+
+#Acessoria p {
+  font-size: 2.6rem
+}
+
 
 .bg-light {
   background: white !important;
-}
-
-#SectionForm{
-  background: url(../images/aba1/Aba1FundoLaranja.png) no-repeat center center scroll ; 
-  background-size: cover; 
-  min-height: 100vh; 
-
-}
-#SectionForm h2 {
-  font-size: 4rem;
-  margin: 20px 0;
-}
-#SectionForm p{
-  font-size: 2rem;
-  margin: 20px 0;
-}
-#SectionForm input{
-  background: #f3f3f3;
-}
-
-#SectionForm ul{
-  font-size:2rem;
-}
-
-
-.form-p{
-  font-size: 2rem;
-  font-weight: 900;
-}
-
-.enviar{
-  font-size: 1.4rem;
-}
-
-#Nossas-Solucoes ul, #Acessoria ul{
-  list-style-image:  url(../images/aba3/Bolinhalaranja.png);
-  font-size:2rem;
 }
 
 .logo{
   width:275px;
   height:45px;
 }
-
-#TecnologiasHeader {
-  font-size: 3rem;
-  font-weight: 900;
+#Estrutura {
   color: black;
 }
-
-#Tecnologia h6 {
-  font-size: 1.8rem ;
-  font-weight: 900 ;
-}
-
 #Estrutura img {
-  opacity: 0.85;
-}
-
-#Estrutura img:hover {
-  opacity:1;
+  opacity: 1;
 }
 
 #Estrutura h2 {
   font-size: 3rem;
-  font-weight:900;
+  font-weight:400;
 
 }
+#Estrutura [class^="col-"] {
+  margin:0 !important;  
+  padding: 4px 4px;
+}
 #Estrutura p {
-  font-size: 2.2rem
+  font-size: 1.6rem;
+  padding: 0 14%;
 }
 #Estrutura img{
   display: block;
   min-width: 100%;
-  border-radius: 5%;
+  border-radius: 10px;
   min-height: auto;
 }
+
+
 
 #Podcast{
   background: url(../images/aba8/FraudesFundo.png);no-repeat center center scroll ; 
@@ -223,16 +260,16 @@ strong, b {
 
 }
 
+
+#Parceiros h2 {
+  font-size: 3rem;
+} 
 #Footer img {
   max-width: 100%; /* Limita a largura da imagem à largura da coluna */
   height: auto;    /* Mantém a proporção da imagem */
 }
 
-#TrabalheConosco label {
-  text-align:left;
-}
-
-.my-btn-orange {
+.my-btn-orange, .saiba-mais, .quero-negociar {
   background-color: #ff6200; /* Cor de fundo laranja */
   color: #fff; /* Cor do texto branca */
   font-size: 1.6rem; /* Tamanho do texto maior */
@@ -246,6 +283,17 @@ strong, b {
   transition: transform 0.3s ease; /* Efeito ao passar o mouse */
 }
 
+.saiba-mais{
+  font-size: 1.8rem !important;
+  padding:  5px 25px !important;
+}
+.quero-negociar{
+  font-size: 1.2rem !important;
+  padding:  5px 25px !important;
+  font-weight: bold;
+  font-family: 'lato';
+  text-shadow: 0px 0px 1px white;
+}
 .btn {
  font-size: 1.5rem; /* Tamanho do texto maior */
  font-weight: bold; /* Texto em negrito */
@@ -257,34 +305,13 @@ strong, b {
  display: inline-block; /* Para evitar comportamento de bloco completo */
  transition: transform 0.3s ease; /* Efeito ao passar o mouse */
 }
-
 .btn:hover {
   transform: scale(1.05); /* Leve aumento ao passar o mouse */
   color: white;
   text-shadow: none;
 }
 
-#Acessoria {
-  color:white;
-  background: url(../images/aba5/FundoAcessoria.png) ;
-  background-attachment: scroll; 
-  background-size: cover; 
-  background-repeat: none;
-}
-/*
-Ajustes finais
-*/
-#Acessoria h2 {
-  font-size: 3rem;
-}
 
-#Acessoria p{
-  font-size: 2.1rem
-}
-
-#Clientes h2 {
-  font-size: 3rem;
-} 
 
 #chamada1-title1{
   font-size: 3rem;
@@ -311,62 +338,6 @@ Ajustes finais
 }
 
 /* Inicio Clientes  */
-
-
-.custom-carousel-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-}
-
-.custom-carousel-inner {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  width: 100%;
-}
-
-.custom-carousel-item {
-  flex: 0 0 25%; /* Cada item ocupa 25% da largura do contêiner */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.custom-carousel-item img {
-  max-width: 80%;
-  height: auto; /* Mantém a proporção das imagens */
-  display: block;
-  margin: 0 auto;
-}
-
-.custom-carousel-control-prev,
-.custom-carousel-control-next {
-  cursor: pointer;
-  font-size: 24px; /* Tamanho das setas */
-  color: #fff; /* Cor das setas */
-  background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-  padding: 10px;
-  border-radius: 50%;
-  text-align: center;
-  margin: 0 10px;
-  text-decoration: none;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.custom-carousel-control-prev {
-  left: 10px;
-}
-
-.custom-carousel-control-next {
-  right: 10px;
-}
-
-
 
 /* Fim Clientes  */
 #Clientes {
@@ -432,30 +403,24 @@ footer a:hover, .nav-link:hover{
   }
 
   .logo{
-    width:242px;
-    height:45px;
+    width:222px;
+    height:35px;
   }
 
-  #TecnologiasHeader {
-    font-size: 2rem;
-    padding:10px 0px ;
+  #Tecnologias  h5 {
+    font-size: 1.5rem;
+    text-align:center;
+    font-weight: 900;
+  }
+  #Tecnologias h2 {
+    font-size: 3rem;
+    color: black;
   }
 
-  #TecnologiasHeader > strong{
-    display: block;
-  }
-
-  .container, .container-fluid{
-    margin:0;
-    padding:0;
-
-
-  }
 
   .row{
     display:block;
   }
-
   .form-label{
     text-align: left;
   }
@@ -498,7 +463,7 @@ footer a:hover, .nav-link:hover{
   #Nossas-Solucoes p {
     padding: 20px 0;
   }
-  
+
   #Nossas-Solucoes {
     background: 
     url(../images/aba3/InadimplenciaFundo.png) 
@@ -528,15 +493,6 @@ footer a:hover, .nav-link:hover{
 
   #Footer .col-12.col-xl-2, #Footer .col-12.col-xl-8 {
     margin-bottom: 10px;  Adiciona espaçamento entre os elementos em telas menores 
-  }
-
-  .carousel-item {
-    text-align: center;
-  }
-
-  .carousel-item img {
-    margin: auto;
-    max-width: 80%;
   }
 
   #SectionForm h2{
