@@ -252,10 +252,10 @@ strong, b {
   list-style: none;
   text-align:center;
   padding:0;
-  height: 250px;
+  height: 200px;
   background-color: rgba(0,0,0,.8);
   display:block;
-  padding: 50px 0;
+  padding:  0;
 }
 #redes-folow ul li a{
   color: white;
@@ -264,7 +264,6 @@ strong, b {
   width: 50px; /* Tamanho do ícone */
   height: 50px;
   background: linear-gradient(45deg, #FEDA77, #D6249F, #8134AF, #515BD4);
-  /* Para deixar redondo */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -272,39 +271,59 @@ strong, b {
   font-size: 50px; /* Tamanho do ícone interno */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombras para destaque */
 }
-.icon-linkedin {
-  width: 50px;
-  height: 50px;
-  background: #0A66C2; /* Azul oficial */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white; /* Cor do ícone */
-  font-size: 50px; /* Tamanho do ícone */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombras para destaque */
-}
-
-/* Animação (opcional) */
 @keyframes gradient-animation {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
 
+.icon-linkedin {
+  width: 50px;
+  height: 50px;
+  color: #0A66C2 !important; /* Azul oficial */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white; /* Cor do ícone */
+  font-size: 50px; /* Tamanho do ícone */
+}
+
+.whatsapp-icon {
+  width: 50px; /* Largura do ícone ou botão */
+  height: 50px; /* Altura do ícone ou botão */
+  background: #25D366; /* Verde oficial do WhatsApp */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Cor do ícone ou texto */
+  font-size: 32px; /* Tamanho da fonte */
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombras para destaque */
+  border: none; /* Remove qualquer borda adicional */
+
+}
+
+/* Animação (opcional) */
+
+
 #Podcast{
   background: url(../images/aba8/FraudesFundo.png);no-repeat center center scroll ; 
   background-size: cover; 
   font-size: 2.1rem;
+
 }
 #Podcast #Exploramos{
-
   font-size: 2.5rem;
 }
+
 #Description-CEO-2{
   display: none;
+
 }
+
 #Description-CEO-1{
   display: block;
+
 }
 .footer-link-sm{
   display: block !important;
